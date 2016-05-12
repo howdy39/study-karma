@@ -1,0 +1,25 @@
+{
+  "name": "study-karma",
+  "version": "1.0.0",
+  "description": "ステップバイステップで始めるKarma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdy39/study-karma.git"
+  },
+  "keywords": [
+    "karma"
+  ],
+  "author": "Tatsuya Nakano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howdy39/study-karma/issues"
+  },
+  "homepage": "https://github.com/howdy39/study-karma#readme",
+  "devDependencies": {
+    "karma": "^0.13.22"
+  }
+}
