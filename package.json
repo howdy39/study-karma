@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/howdy39/study-karma#readme",
   "devDependencies": {
-    "karma": "^0.13.22"
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2"
   }
 }
