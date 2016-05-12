@@ -6,6 +6,7 @@ module.exports = function(config) {
             'test/*Spec.coffee'
         ],
         preprocessors: {
+            'app/app.js': ['coverage'],
             'test/*Spec.coffee': ['coffee']
         },
         coffeePreprocessor: {
@@ -14,6 +15,10 @@ module.exports = function(config) {
             }
         },
         browsers: ['Chrome'],
+        reporters: ['mocha', 'coverage', 'junit'],
+        junitReporter: {
+            outputDir: 'report'
+        },
         logLevel: config.LOG_DEBUG
     })
 }
